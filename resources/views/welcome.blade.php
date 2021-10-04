@@ -8,9 +8,8 @@
     </head>
     <body class="bg-green-600">
         <div id="app">
-            sdf
+            <router-view></router-view>
         </div>
-
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
