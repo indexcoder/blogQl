@@ -6,8 +6,8 @@
         <title>Laravel</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
-    <body class="bg-green-600">
-        <div id="app">
+    <body class="bg-gray-900">
+        <div id="app" class="container mx-auto max-w-lg">
             <router-view></router-view>
         </div>
         <script src="{{ asset('js/app.js') }}"></script>
